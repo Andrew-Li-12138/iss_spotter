@@ -49,3 +49,5 @@ nextISSTimesForMyLocation((error, passTimes) => {
   // success, print out the deets!
   printHumanReadable(passTimes);
 });
+
+module.exports = { printHumanReadable };
